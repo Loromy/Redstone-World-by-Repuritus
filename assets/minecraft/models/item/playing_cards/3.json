@@ -1,7 +1,0 @@
-
-{
-	"parent": "item/generated",
-	"textures": {
-	  "layer0": "item/playing_cards/3"
-	}
-  }
