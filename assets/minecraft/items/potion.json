@@ -1,0 +1,82 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/potion",
+      "tints": [
+      {
+        "type": "minecraft:potion",
+        "default": -13083194
+      }
+    ]
+    },
+    "cases": [
+      {
+        "when": "3d_potion",
+        "model": {
+          "type": "model",
+          "model": "item/potion/3d_potion",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": -13083194
+            }
+          ]
+        }
+      },{
+        "when": "3d_potion_drink",
+        "model": {
+          "type": "model",
+          "model": "item/potion/3d_potion_drink",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": -13083194
+            }
+          ]
+        }
+      },
+      {
+        "when": "glass_1",
+        "model": {
+          "type": "model",
+          "model": "item/potion/1",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": -13083194
+            }
+          ]
+        }
+      },
+      {
+        "when": "glass_2",
+        "model": {
+          "type": "model",
+          "model": "item/potion/2",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": -13083194
+            }
+          ]
+        }
+      },
+      {
+        "when": "glass_3",
+        "model": {
+          "type": "model",
+          "model": "item/potion/3",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": -13083194
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

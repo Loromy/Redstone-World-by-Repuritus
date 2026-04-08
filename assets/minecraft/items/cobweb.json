@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/cobweb"
+    },
+    "cases": [
+      {
+        "when": "chiseled_bookshelf_cobweb_1",
+        "model": {
+          "type": "model",
+          "model": "item/deko/chiseled_bookshelf_cobweb_1"
+        }
+      },
+      {
+        "when": "chiseled_bookshelf_cobweb_2",
+        "model": {
+          "type": "model",
+          "model": "item/deko/chiseled_bookshelf_cobweb_2"
+        }
+      }
+    ]
+  }
+}

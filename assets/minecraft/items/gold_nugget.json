@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/gold_nugget"
+    },
+    "cases": [
+      {
+        "when": "redbit",
+        "model": {
+          "type": "model",
+          "model": "item/redbytes/redbit"
+        }
+      },
+      {
+        "when": "redbyte",
+        "model": {
+          "type": "model",
+          "model": "item/redbytes/redbyte"
+        }
+      },
+      {
+        "when": "redgiga",
+        "model": {
+          "type": "model",
+          "model": "item/redbytes/redgiga"
+        }
+      },
+      {
+        "when": "redgiga_block",
+        "model": {
+          "type": "model",
+          "model": "item/redbytes/redgiga_block"
+        }
+      }
+    ]
+  }
+}

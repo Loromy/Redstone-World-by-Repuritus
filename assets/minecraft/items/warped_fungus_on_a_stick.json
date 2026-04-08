@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/warped_fungus_on_a_stick"
+    },
+    "cases": [
+      {
+        "when": "speed_sword",
+        "model": {
+          "type": "model",
+          "model": "item/custom_wapons/speed_sword"
+        }
+      }
+    ]
+  }
+}

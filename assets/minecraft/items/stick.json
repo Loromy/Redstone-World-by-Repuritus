@@ -1,0 +1,54 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/stick"
+    },
+    "cases": [
+      {
+        "when": "clock_minute",
+        "model": {
+          "type": "model",
+          "model": "item/clock/clock_minute"
+        }
+      },
+      {
+        "when": "clock_hour",
+        "model": {
+          "type": "model",
+          "model": "item/clock/clock_hour"
+        }
+      },
+      {
+        "when": "clock_numbers_1",
+        "model": {
+          "type": "model",
+          "model": "item/clock/clock_nubers_1"
+        }
+      },
+      {
+        "when": "clock_minute_big",
+        "model": {
+          "type": "model",
+          "model": "item/clock/clock_minute_big"
+        }
+      },
+      {
+        "when": "clock_hour_big",
+        "model": {
+          "type": "model",
+          "model": "item/clock/clock_hour_big"
+        }
+      },
+      {
+        "when": "clock_numbers_1_big",
+        "model": {
+          "type": "model",
+          "model": "item/clock/clock_nubers_1_big"
+        }
+      }
+    ]
+  }
+}

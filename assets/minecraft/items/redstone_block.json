@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "block/redstone_block"
+    },
+    "cases": [
+      {
+        "when": "redstone_block_placer",
+        "model": {
+          "type": "model",
+          "model": "item/redstone_escape_pyramiede/redstone_block_placer"
+        }
+    }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "space_suit_elytra",
+        "use_player_texture": false
+      }
+    ]
+  }
+}

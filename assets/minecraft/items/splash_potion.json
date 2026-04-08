@@ -1,0 +1,31 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/splash_potion",
+      "tints": [
+      {
+        "type": "minecraft:potion",
+        "default": -13083194
+      }
+    ]
+    },
+    "cases": [
+      {
+        "when": "3d_potion",
+        "model": {
+          "type": "model",
+          "model": "item/potion/3d_splash_potion",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": -13083194
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
