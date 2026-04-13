@@ -13,6 +13,13 @@
           "type": "model",
           "model": "item/custom_wapons/speed_sword"
         }
+      },
+      {
+        "when": "orbital_striker_button",
+        "model": {
+          "type": "model",
+          "model": "item/custom_wapons/orbital_striker_button"
+        }
       }
     ]
   }
