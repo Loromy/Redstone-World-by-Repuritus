@@ -11,7 +11,14 @@
         "when": "repuritus",
         "model": {
           "type": "model",
-          "model": "item/hub/player_stature"
+          "model": "item/player_skins/repuritus"
+        }
+      },
+      {
+        "when": "repuritus",
+        "model": {
+          "type": "model",
+          "model": "item/player_skins/herobrine"
         }
       }
     ]

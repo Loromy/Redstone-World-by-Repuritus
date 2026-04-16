@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"layer0": "item/hub/repuritus"
+		"layer0": "item/player_skins/herobrine"
 	},
 	"elements": [
 		{
