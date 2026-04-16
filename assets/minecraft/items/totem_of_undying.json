@@ -15,7 +15,7 @@
         }
       },
       {
-        "when": "repuritus",
+        "when": "herobrine",
         "model": {
           "type": "model",
           "model": "item/player_skins/herobrine"
