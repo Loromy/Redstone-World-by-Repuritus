@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/heavy_weighted_pressure_plate"
+    },
+    "cases": [
+      {
+        "when": "geschirr",
+        "model": {
+          "type": "model",
+          "model": "item/deko/geschirr"
+        }
+      }
+    ]
+  }
+}
