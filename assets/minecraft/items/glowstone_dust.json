@@ -4,14 +4,14 @@
     "property": "custom_model_data",
     "fallback": {
       "type": "model",
-      "model": "block/mud_bricks"
+      "model": "item/glowstone_dust"
     },
     "cases": [
       {
-        "when": "ep_door",
+        "when": "compressed_ore_dust",
         "model": {
           "type": "model",
-          "model": "item/elytra_parkour/elytra_door"
+          "model": "item/custom_blocks/compressed_ore_dust"
         }
       }
     ]

@@ -4,14 +4,14 @@
     "property": "custom_model_data",
     "fallback": {
       "type": "model",
-      "model": "block/mud_bricks"
+      "model": "item/blaze_rod"
     },
     "cases": [
       {
-        "when": "ep_door",
+        "when": "burning_obsidian",
         "model": {
           "type": "model",
-          "model": "item/elytra_parkour/elytra_door"
+          "model": "item/custom_blocks/burning_obsidian"
         }
       }
     ]

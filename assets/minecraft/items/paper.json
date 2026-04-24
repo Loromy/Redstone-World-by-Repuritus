@@ -66,6 +66,14 @@
       },
 
       {
+        "when": "lock_unlocked",
+        "model": {
+          "type": "model",
+          "model": "item/deko/lock_unlocked"
+        }
+      },
+
+      {
         "when": "banner_rh_rezeption",
         "model": {
           "type": "model",
