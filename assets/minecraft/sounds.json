@@ -1,0 +1,8 @@
+{
+  "custom.boss": {
+    "category": "master",
+    "sounds": [
+      "custom/magma_boss_ambient"
+    ]
+  }
+}
