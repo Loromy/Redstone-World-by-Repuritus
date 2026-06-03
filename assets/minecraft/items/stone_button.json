@@ -1,0 +1,33 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "block/stone_button_inventory"
+    },
+    "cases": [
+      {
+        "when": "savety_button_open",
+        "model": {
+          "type": "model",
+          "model": "item/button/savety_button_open"
+        }
+      },
+      {
+        "when": "savety_button_open_pressed",
+        "model": {
+          "type": "model",
+          "model": "item/button/savety_button_open_pressed"
+        }
+      },
+      {
+        "when": "savety_button_closed",
+        "model": {
+          "type": "model",
+          "model": "item/button/savety_button_closed"
+        }
+      }
+    ]
+  }
+}
