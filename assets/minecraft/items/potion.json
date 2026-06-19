@@ -76,6 +76,32 @@
             }
           ]
         }
+      },
+      {
+        "when": "3d_cup",
+        "model": {
+          "type": "model",
+          "model": "item/potion/3d_cup",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": -13083194
+            }
+          ]
+        }
+      },
+      {
+        "when": "3d_cup_hot",
+        "model": {
+          "type": "model",
+          "model": "item/potion/3d_cup_hot",
+          "tints": [
+            {
+              "type": "minecraft:potion",
+              "default": -13083194
+            }
+          ]
+        }
       }
     ]
   }
