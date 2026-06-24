@@ -20,6 +20,13 @@
           "type": "model",
           "model": "item/elytra_parkour/elytra_ring"
         }
+      },
+      {
+        "when": "magnet",
+        "model": {
+          "type": "model",
+          "model": "item/items/magnet"
+        }
       }
     ]
   }

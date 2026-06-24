@@ -13,7 +13,21 @@
           "type": "model",
           "model": "item/hub/red_portal"
         }
-    }
+    },
+    {
+        "when": "magical_circel_red",
+        "model": {
+          "type": "model",
+          "model": "item/magical_circels/magical_circel_red"
+        }
+      },
+      {
+        "when": "magical_circel_red_2",
+        "model": {
+          "type": "model",
+          "model": "item/magical_circels/magical_circel_red_2"
+        }
+      }
     ]
   }
 }
