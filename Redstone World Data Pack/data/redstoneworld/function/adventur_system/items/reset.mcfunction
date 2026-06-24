@@ -1,0 +1,2 @@
+#compactor
+scoreboard objectives remove compress_items

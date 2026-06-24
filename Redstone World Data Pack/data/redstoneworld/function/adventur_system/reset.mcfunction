@@ -1,0 +1,6 @@
+function redstoneworld:adventur_system/block_spawner/reset
+function redstoneworld:adventur_system/collections/reset
+function redstoneworld:adventur_system/items/reset
+function redstoneworld:adventur_system/mob_spawner/reset
+function redstoneworld:adventur_system/tasks/reset
+function redstoneworld:adventur_system/tasks/reset

@@ -1,0 +1,1 @@
+function redstoneworld:adventur_system/items/compactor/load

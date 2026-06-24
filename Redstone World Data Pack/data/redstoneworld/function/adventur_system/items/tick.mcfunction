@@ -1,0 +1,2 @@
+function redstoneworld:adventur_system/items/magnet/test_vor_magnet
+function redstoneworld:adventur_system/items/compactor/test_vor_compactor

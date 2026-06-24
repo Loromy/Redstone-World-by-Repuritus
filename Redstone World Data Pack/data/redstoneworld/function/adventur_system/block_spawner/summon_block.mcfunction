@@ -1,0 +1,1 @@
+$execute as @s at @s align xyz run execute positioned ~0.5 ~0.5 ~0.5 run summon marker ~ ~ ~ {Tags:["$(block)_spawner","block_spawner"]}

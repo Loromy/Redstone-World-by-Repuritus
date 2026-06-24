@@ -1,4 +1,5 @@
 #general-------------------------------------------------
+function redstoneworld:player_name/tick
 function redstoneworld:clock/clock
 function redstoneworld:time/tick_time
 function redstoneworld:timer/tick_time
@@ -10,10 +11,10 @@ function redstoneworld:enderchest_inventar/chest/update
 function redstoneworld:gambling/tick
 function redstoneworld:redbytes/tick
 
-#ores / mine / tasks-------------------------------------------------
-function redstoneworld:ore_spawner/ore_spawner
-function redstoneworld:tasks/viliger/tick_viliger
-execute as @a[nbt={Dimension:"redstoneworld:dungeon"}] run function redstoneworld:mob_spawner/spawn/spawn_cooldown
+
+#adventur_system-------------------------------------------------
+function redstoneworld:adventur_system/tick
+
 
 #weapons-------------------------------------------------
 function redstoneworld:custom_wapons/custom_wapon

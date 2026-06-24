@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "redstoneworld:dungeon/archaeology/pottery_task_suspicious_sand"
+      }
+    }
+  },
+  "rewards": {
+    "function": "redstoneworld:adventur_system/collections/tracking/archaeology/sus_sand"
+  }
+}

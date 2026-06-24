@@ -1,0 +1,1 @@
+function redstoneworld:adventur_system/tasks/viliger/task_viliger/ckeck_all_tasks

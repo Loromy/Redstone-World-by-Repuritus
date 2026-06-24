@@ -1,0 +1,2 @@
+execute as @a[gamemode=!spectator,gamemode=!creative] if items entity @s weapon.offhand minecraft:gold_ingot[custom_data={magnet:5b}] run function redstoneworld:adventur_system/items/magnet/magnet {distance:5}
+execute as @a[gamemode=!spectator,gamemode=!creative] if items entity @s weapon.offhand minecraft:gold_ingot[custom_data={magnet:10b}] run function redstoneworld:adventur_system/items/magnet/magnet {distance:10}

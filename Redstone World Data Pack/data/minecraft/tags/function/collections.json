@@ -1,0 +1,13 @@
+{
+  "values": [
+    "redstoneworld:collections/load",
+    "redstoneworld:collections/tick",
+    "redstoneworld:collections/tracking/mining",
+    "redstoneworld:collections/tracking/wood",
+    "redstoneworld:collections/tracking/combat",
+    "redstoneworld:collections/tracking/farming",
+    "redstoneworld:collections/tracking/fishing",
+    "redstoneworld:collections/tracking/crafting"
+  ]
+}
+
