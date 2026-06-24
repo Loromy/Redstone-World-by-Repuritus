@@ -1,0 +1,2 @@
+scoreboard objectives add space_fly_sneak-detect minecraft.custom:minecraft.sneak_time
+scoreboard objectives add space_fly_sneak-fule dummy

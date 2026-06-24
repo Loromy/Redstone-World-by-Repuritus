@@ -1,0 +1,1 @@
+$give @s gold_nugget[custom_name={"bold":true,"color":"dark_red","italic":false,"text":"Redbyte"},lore=[{"color":"dark_gray","italic":false,"obfuscated":true,"text":"k4jt-.57u"}],custom_model_data={strings:["redbyte"]},tooltip_style="minecraft:red",custom_data={redbyte:2}] $(count)

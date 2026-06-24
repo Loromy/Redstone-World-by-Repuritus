@@ -1,0 +1,24 @@
+﻿{
+    "display": {
+      "icon": {
+        "id": "minecraft:lime_stained_glass"
+      },
+      "title": {
+        "text": "1min Tron"
+      },
+      "description": {
+        "text": "Spiele 1min Tron ohne Gelb zuberühren!",
+        "color": "gray"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "parent": "redstoneworld:redstoneworld/arcade/arcade"
+  }

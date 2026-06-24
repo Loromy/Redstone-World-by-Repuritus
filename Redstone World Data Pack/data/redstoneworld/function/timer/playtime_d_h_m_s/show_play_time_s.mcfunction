@@ -1,0 +1,3 @@
+execute if score wave timer_data matches 1..2 as @a[tag=show_timer] run title @s actionbar ["",{"score":{"name":"timer","objective":"playtime_tracker_sec"},"color":"#9a0202"},{"text":"s","color":"#b60101"}]
+execute if score wave timer_data matches 3..4 as @a[tag=show_timer] run title @s actionbar ["",{"score":{"name":"timer","objective":"playtime_tracker_sec"},"color":"#d20000"},{"text":"s","color":"#9a0202"}]
+execute if score wave timer_data matches 5..6 as @a[tag=show_timer] run title @s actionbar ["",{"score":{"name":"timer","objective":"playtime_tracker_sec"},"color":"#ef0000"},{"text":"s","color":"#ef0000"}]

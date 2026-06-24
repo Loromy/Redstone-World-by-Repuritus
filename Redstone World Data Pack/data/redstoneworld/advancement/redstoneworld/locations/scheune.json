@@ -1,0 +1,24 @@
+﻿{
+    "display": {
+      "icon": {
+        "id": "minecraft:hay_block"
+      },
+      "title": {
+        "text": "The Barn"
+      },
+      "description": {
+        "text": "Go and vist the barn",
+        "color": "gray"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "parent": "redstoneworld:redstoneworld/locations/mansion"
+  }

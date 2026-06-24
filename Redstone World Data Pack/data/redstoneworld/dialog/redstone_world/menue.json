@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Redstone World",
+    "color": "dark_red",
+    "bold": true
+  },
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Willkommen"
+  },
+  "inputs": [],
+  "exit_action": {
+    "label": "Close"
+  },
+  "columns": 2,
+  "actions": [
+    {
+      "label": "Stats",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dialog_page set 1"
+      }
+    },
+    {
+      "label": "Redbytes"
+    },
+    {
+      "label": "TP"
+    },
+    {
+      "label": "4"
+    },
+    {
+      "label": "5"
+    },
+    {
+      "label": "6"
+    }
+  ]
+}

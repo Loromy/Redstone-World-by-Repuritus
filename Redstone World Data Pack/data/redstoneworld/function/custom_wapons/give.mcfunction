@@ -1,0 +1,5 @@
+function give:custom_wapons/fire_sword
+function give:custom_wapons/lightning_sword
+function give:custom_wapons/speed_sword
+function give:custom_wapons/teleport_sword
+function give:custom_wapons/orbital_strike_remote

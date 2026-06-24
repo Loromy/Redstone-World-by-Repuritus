@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "id": "gold_nugget"
+      },
+      "title": {
+        "text": "Win at an Slot mashine"
+      },
+      "description": {
+        "text": "Winn the chance of 1:10000",
+        "color": "gray"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "parent": "redstoneworld:redstoneworld/arcade/arcade"
+  }

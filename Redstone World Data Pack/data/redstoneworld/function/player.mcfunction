@@ -1,0 +1,3 @@
+function redstoneworld:mana/mana
+function give:deko_items/show_item_frams
+function redstoneworld:enderchest_inventar/chest/check_player_inv

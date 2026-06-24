@@ -1,0 +1,27 @@
+﻿{
+    "display": {
+      "icon": {
+        "id": "minecraft:gray_stained_glass"
+      },
+      "title": {
+        "text": "10min Tron"
+      },
+      "description": {
+        "text": "Spiele 10min Tron ohne Gelb zuberühren!",
+        "color": "dark_purple"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "experience": 200
+    },
+    "parent": "redstoneworld:redstoneworld/arcade/arcade_tron_5min"
+  }

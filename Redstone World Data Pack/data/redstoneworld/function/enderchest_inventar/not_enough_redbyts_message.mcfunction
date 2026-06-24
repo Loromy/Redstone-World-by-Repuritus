@@ -1,0 +1,1 @@
+tellraw @s [{"bold":true,"color":"dark_red","italic":false,"text":"[Chest]: "},{"bold":false,"color":"dark_gray","italic":false,"text":"You don't have enough Redbytes: "},{"bold":false,"italic":false,"score":{"name":"@s","objective":"Redbytes"}},{"bold":false,"italic":false,"text":"\uE3E8"}]

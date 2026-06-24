@@ -1,0 +1,24 @@
+﻿{
+    "display": {
+      "icon": {
+        "id": "minecraft:cyan_terracotta"
+      },
+      "title": {
+        "text": "Arcade"
+      },
+      "description": {
+        "text": "Vist the Arcade Arena",
+        "color": "gray"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "parent": "redstoneworld:redstoneworld/locations/hotel"
+  }

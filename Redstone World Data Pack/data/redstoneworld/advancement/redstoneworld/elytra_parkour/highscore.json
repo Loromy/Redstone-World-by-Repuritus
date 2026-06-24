@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:nether_star"
+      },
+      "title": {
+        "text": "Always faster"
+      },
+      "description": {
+        "text": "Beat the Highscore",
+        "color": "dark_purple"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "parent": "redstoneworld:redstoneworld/elytra_parkour/geschaft"
+  }

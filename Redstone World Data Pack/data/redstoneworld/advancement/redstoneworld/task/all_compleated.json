@@ -1,0 +1,25 @@
+﻿{
+  "display": {
+    "icon": {
+      "id": "nether_star"
+    },
+    "title": {
+      "text": "Compleated All Tasks",
+      "color": "dark_purple"
+      ,"bold": true
+    },
+    "description": {
+      "text": "Finisch all the quests."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "redstoneworld:redstoneworld/task/root"
+}

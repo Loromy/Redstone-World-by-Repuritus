@@ -1,0 +1,24 @@
+﻿{
+  "display": {
+    "icon": {
+      "id": "anvil"
+    },
+    "title": {
+      "text": "Forge Quests Completed"
+    },
+    "description": {
+      "text": "Hilf Ambro dabei, seinen Schmelzofen mit glühendem Obsidian wieder zu entfachen.",
+      "color": "gray"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "redstoneworld:redstoneworld/task/root"
+}

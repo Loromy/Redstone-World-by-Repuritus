@@ -1,0 +1,5 @@
+scoreboard objectives add timer_data dummy
+scoreboard objectives add playtime_tracker_sec dummy
+scoreboard objectives add playtime_tracker_min dummy
+scoreboard objectives add playtime_tracker_hour dummy
+scoreboard objectives add playtime_tracker_day dummy

@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sandstone_stairs"
+    },
+    "title": {
+      "text": "Redstone Pyramide"
+    },
+    "description": {
+      "text": "Play the Redstone Escape Pyramide",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "redstoneworld:redstoneworld/join"
+}

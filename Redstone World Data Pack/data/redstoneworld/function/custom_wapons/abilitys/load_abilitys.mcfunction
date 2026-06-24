@@ -1,0 +1,5 @@
+function redstoneworld:custom_wapons/abilitys/speed/speed_check
+function redstoneworld:custom_wapons/abilitys/fire/fire_check
+function redstoneworld:custom_wapons/abilitys/lightning/lightning_check
+function redstoneworld:custom_wapons/abilitys/teleport/teleport_check
+function redstoneworld:custom_wapons/abilitys/orbital_strike/orbital_strike_check

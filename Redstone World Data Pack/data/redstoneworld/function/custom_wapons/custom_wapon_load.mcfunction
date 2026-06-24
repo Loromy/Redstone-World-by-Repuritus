@@ -1,0 +1,12 @@
+scoreboard objectives add cw_wfoas used:warped_fungus_on_a_stick
+scoreboard objectives add cw_damageDealt custom:damage_dealt
+
+scoreboard objectives add cw_ability dummy
+
+scoreboard objectives add wapon_cooldown_fire dummy
+scoreboard objectives add wapon_cooldown_speed dummy
+scoreboard objectives add wapon_cooldown_lightning dummy
+scoreboard objectives add wapon_cooldown_teleport dummy
+scoreboard objectives add wapon_cooldown_orbital_strike dummy
+
+scoreboard objectives add wapon_loading_orbital_stiker dummy

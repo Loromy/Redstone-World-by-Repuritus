@@ -1,0 +1,1 @@
+$give @p glowstone_dust[custom_model_data={strings:["compressed_ore_dust"]},custom_name={"bold":true,"color":"dark_aqua","italic":false,"text":"Compressed Ore Dust"}] $(count)

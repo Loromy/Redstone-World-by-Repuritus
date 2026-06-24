@@ -1,0 +1,3 @@
+scoreboard objectives add openEnder minecraft.custom:minecraft.open_enderchest
+scoreboard objectives add shop_chest_item dummy
+scoreboard objectives add enderchest_page dummy

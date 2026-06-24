@@ -1,0 +1,31 @@
+﻿{
+  "display": {
+    "icon": {
+      "id": "minecraft:glowstone_dust",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "compressed_ore_dust"
+          ]
+        }
+      }
+    },
+    "title": {
+      "text": "Meister der Erze"
+    },
+    "description": {
+      "text": "Bringe Bruno Compressed Ore Dust.",
+      "color": "gray"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "redstoneworld:redstoneworld/task/root"
+}

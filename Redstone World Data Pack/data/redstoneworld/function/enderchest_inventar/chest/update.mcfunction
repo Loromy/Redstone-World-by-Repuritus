@@ -1,0 +1,2 @@
+execute as @a[scores={openEnder=1..}] run execute unless score @s enderchest_page matches 0.. run scoreboard players set @s enderchest_page 0
+execute as @a[scores={openEnder=1..}] run function redstoneworld:enderchest_inventar/chest/pages/load_page

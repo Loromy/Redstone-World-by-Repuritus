@@ -1,0 +1,7 @@
+execute store result score @s cw_ability run data get entity @s SelectedItem.components.minecraft:custom_data.ability
+
+execute if score @s cw_ability matches 3 run execute if score @s Mana matches 100.. run execute unless score @s wapon_cooldown_lightning matches 1.. run function redstoneworld:custom_wapons/abilitys/lightning/lightning_ability
+
+execute if score @s cw_ability matches 3 run execute if score @s Mana matches 100.. run execute if score @s wapon_cooldown_lightning matches 1..9 run tellraw @s [{"bold":true,"color":"red","italic":false,"text":"This Item is on Cooldown noch: "},{"score":{"name":"@s","objective":"wapon_cooldown_lightning"}},"s"]
+
+execute if score @s cw_ability matches 3 run execute unless score @s Mana matches 100.. run tellraw @s [{"bold":true,"color":"light_purple","italic":false,"text":"You don't have enough mana: "},{"score":{"name":"@s","objective":"Mana"}},{"text":"/100"}]

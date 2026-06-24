@@ -1,0 +1,3 @@
+function redstoneworld:tasks/viliger/task_viliger/task_ors/check_task
+function redstoneworld:tasks/viliger/task_viliger/task_forge/check_task
+function redstoneworld:tasks/viliger/task_viliger/task_pottery/check_task

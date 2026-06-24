@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:marker,tag=gambling_slotmachine_marker] at @s run execute if entity @a[distance=..5] run function redstoneworld:gambling/slot_machine/check_slot_mashine

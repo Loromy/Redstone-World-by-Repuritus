@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "text": "Redstone World",
+      "color": "dark_red"
+      ,"bold": true
+    },
+    "description": {
+      "text": "Enter the Redstone World",
+      "color": "gray"
+    },
+    "background": "minecraft:block/redstone_block",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

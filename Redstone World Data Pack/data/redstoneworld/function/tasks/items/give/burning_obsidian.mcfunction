@@ -1,0 +1,1 @@
+$give @p blaze_rod[custom_model_data={strings:["burning_obsidian"]},custom_name={"bold":true,"color":"gold","italic":false,"text":"Burning Obsidian"}] $(count)

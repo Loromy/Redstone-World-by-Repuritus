@@ -1,0 +1,24 @@
+﻿{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_block"
+    },
+    "title": {
+      "text": "Treasure Room"
+    },
+    "description": {
+      "text": "Can you find the secret mechanism?",
+      "color": "dark_purple"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "redstoneworld:redstoneworld/locations/mansion"
+}

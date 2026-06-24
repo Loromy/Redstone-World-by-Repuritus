@@ -1,0 +1,1 @@
+execute as @a[x=-29,y=118,z=-16,dx=49,dy=8,dz=59] at @s run function redstoneworld:hub/willkommen_titel

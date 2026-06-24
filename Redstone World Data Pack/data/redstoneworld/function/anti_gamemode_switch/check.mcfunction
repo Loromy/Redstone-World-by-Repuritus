@@ -1,0 +1,2 @@
+tellraw @a[gamemode=!adventure,tag=!gamemode] [{"bold":true,"color":"dark_red","text":"[Redstone World]:"},{"color":"dark_gray","text":" Du hast nicht die Berechtigung dazu deinen Gamemode zuwechseln!","bold":false}]
+gamemode adventure @a[gamemode=!adventure,tag=!gamemode]
