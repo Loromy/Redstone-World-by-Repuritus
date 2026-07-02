@@ -1,0 +1,4 @@
+execute as @a at @s run execute as @e[type=minecraft:marker,tag=wheat_spawner,distance=..50] at @s run execute positioned ~3.5 ~ ~ run particle dust{color:[0.000,0.659,0.000],scale:1} ~ ~ ~ 0 0 1 1 10 normal
+execute as @a at @s run execute as @e[type=minecraft:marker,tag=wheat_spawner,distance=..50] at @s run execute positioned ~-3.5 ~ ~ run particle dust{color:[0.000,0.659,0.000],scale:1} ~ ~ ~ 0 0 1 1 10 normal
+execute as @a at @s run execute as @e[type=minecraft:marker,tag=wheat_spawner,distance=..50] at @s run execute positioned ~ ~ ~3.5 run particle dust{color:[0.000,0.659,0.000],scale:1} ~ ~ ~ 1 0 0 1 10 normal
+execute as @a at @s run execute as @e[type=minecraft:marker,tag=wheat_spawner,distance=..50] at @s run execute positioned ~ ~ ~-3.5 run particle dust{color:[0.000,0.659,0.000],scale:1} ~ ~ ~ 1 0 0 1 10 normal

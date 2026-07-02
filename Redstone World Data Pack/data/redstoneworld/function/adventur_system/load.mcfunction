@@ -3,3 +3,4 @@ function redstoneworld:adventur_system/tasks/viliger/load_viliger
 function redstoneworld:adventur_system/block_spawner/load
 function redstoneworld:adventur_system/mob_spawner/spawn/load
 function redstoneworld:adventur_system/items/load
+function redstoneworld:adventur_system/collections/level_system/load

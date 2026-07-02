@@ -157,6 +157,10 @@ execute if score @s shop_chest_item matches 801 run execute unless entity @s[tag
 
 execute if score @s shop_chest_item matches 802 run give @s minecraft:clock
 
+execute if score @s shop_chest_item matches 803 run execute unless score @s Redbytes matches 10000.. run function redstoneworld:enderchest_inventar/not_enough_redbyts_message
+execute if score @s shop_chest_item matches 803 run execute if score @s Redbytes matches 10000.. run function give:item/teleport_stone
+execute if score @s shop_chest_item matches 803 run execute if score @s Redbytes matches 10000.. run scoreboard players remove @s Redbytes 10000
+
 
 
 
@@ -234,4 +238,5 @@ execute if data entity @s Inventory[{components:{"minecraft:custom_data":{hub_ch
 
 execute if data entity @s Inventory[{components:{"minecraft:custom_data":{hub_chest:801}}}] run clear @s *[minecraft:custom_data={hub_chest:801}]
 execute if data entity @s Inventory[{components:{"minecraft:custom_data":{hub_chest:802}}}] run clear @s *[minecraft:custom_data={hub_chest:802}]
+execute if data entity @s Inventory[{components:{"minecraft:custom_data":{hub_chest:803}}}] run clear @s *[minecraft:custom_data={hub_chest:803}]
 

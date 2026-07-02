@@ -13,8 +13,8 @@ item replace entity @s enderchest.9 with minecraft:red_stained_glass_pane[custom
 
 item replace entity @s enderchest.10 with minecraft:paper[custom_model_data={strings:["operator"]},custom_data={hub_chest:801},custom_name={"bold":true,"color":"dark_gray","italic":false,"text":"Operator Key Card"},minecraft:tooltip_style="op"] 1
 item replace entity @s enderchest.11 with minecraft:clock[custom_data={hub_chest:802}] 1
+item replace entity @s enderchest.12 with warped_fungus_on_a_stick[custom_model_data={strings:["kristall"]},custom_data={hub_chest:803},custom_name={"bold":true,"color":"dark_purple","italic":false,"text":"HUB Teleport Stone"},minecraft:tooltip_style="purple",lore=[{"text":"Cost: 10000 Rbs","color":"gray","italic":false}]] 1
 
-item replace entity @s enderchest.12 with minecraft:light_gray_stained_glass_pane[custom_data={hub_chest:99},tooltip_display={hide_tooltip:true}] 1
 item replace entity @s enderchest.13 with minecraft:light_gray_stained_glass_pane[custom_data={hub_chest:99},tooltip_display={hide_tooltip:true}] 1
 item replace entity @s enderchest.14 with minecraft:light_gray_stained_glass_pane[custom_data={hub_chest:99},tooltip_display={hide_tooltip:true}] 1
 item replace entity @s enderchest.15 with minecraft:light_gray_stained_glass_pane[custom_data={hub_chest:99},tooltip_display={hide_tooltip:true}] 1

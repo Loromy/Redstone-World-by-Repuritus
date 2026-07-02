@@ -1,5 +1,9 @@
+execute store result score @s cw_ability run data get entity @s SelectedItem.components.minecraft:custom_data.ability
+
 function redstoneworld:custom_wapons/abilitys/speed/speed_check
 function redstoneworld:custom_wapons/abilitys/fire/fire_check
 function redstoneworld:custom_wapons/abilitys/lightning/lightning_check
 function redstoneworld:custom_wapons/abilitys/teleport/teleport_check
 function redstoneworld:custom_wapons/abilitys/orbital_strike/orbital_strike_check
+function redstoneworld:custom_wapons/abilitys/items/teleport_stone/teleport_stone_check
+function redstoneworld:custom_wapons/abilitys/items/loot_bag/loot_bag_check

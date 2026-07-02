@@ -1,4 +1,4 @@
-summon item_display -22 92.5 122 {Tags:["rw_player.name"],UUID:[I;112,110,116,120]}
+summon item_display 13 78.5 41 {Tags:["rw_player.name"],UUID:[I;112,110,116,120]}
 
 scoreboard objectives add rw_player.left minecraft.custom:minecraft.leave_game
 

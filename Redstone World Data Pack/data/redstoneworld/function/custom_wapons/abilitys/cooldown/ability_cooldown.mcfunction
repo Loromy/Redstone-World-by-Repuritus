@@ -3,3 +3,4 @@ scoreboard players remove @s[scores={wapon_cooldown_speed=1..}] wapon_cooldown_s
 scoreboard players remove @s[scores={wapon_cooldown_lightning=1..}] wapon_cooldown_lightning 1
 scoreboard players remove @s[scores={wapon_cooldown_teleport=1..}] wapon_cooldown_teleport 1
 scoreboard players remove @s[scores={wapon_cooldown_orbital_strike=1..}] wapon_cooldown_orbital_strike 1
+scoreboard players remove @s[scores={wapon_cooldown_teleport_stone=1..}] wapon_cooldown_teleport_stone 1

@@ -1,0 +1,226 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 85,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": { "redbyte": 1 },
+                "minecraft:custom_model_data": { "strings": ["redbit"] },
+                "minecraft:custom_name": { "bold": true, "color": "dark_red", "italic": false, "text": "Redbit" },
+                "minecraft:lore": [
+                  { "color": "dark_gray", "italic": false, "obfuscated": true, "text": "3jn-ök." }
+                ],
+                "minecraft:tooltip_style": "minecraft:red"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_iron",
+          "weight": 70
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 55,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": { "redbyte": 2 },
+                "minecraft:custom_model_data": { "strings": ["redbyte"] },
+                "minecraft:custom_name": { "bold": true, "color": "dark_red", "italic": false, "text": "Redbyte" },
+                "minecraft:lore": [
+                  { "color": "dark_gray", "italic": false, "obfuscated": true, "text": "k4jt-.57u" }
+                ],
+                "minecraft:tooltip_style": "minecraft:red"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": { "mana_item": true, "mana_var": 2 },
+                "minecraft:custom_model_data": { "strings": ["3d_potion_drink"] },
+                "minecraft:custom_name": { "bold": true, "color": "dark_purple", "italic": false, "text": "Mana Potion II" },
+                "minecraft:lore": [
+                  { "bold": false, "color": "white", "italic": false, "text": "> gives your +100 max Mana" }
+                ],
+                "minecraft:max_stack_size": 16,
+                "minecraft:potion_contents": {
+                  "custom_color": 11011491,
+                  "custom_effects": [
+                    { "amplifier": 1, "duration": 20, "id": "minecraft:regeneration", "show_icon": true, "show_particles": false }
+                  ]
+                },
+                "minecraft:tooltip_style": "minecraft:purple"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": { "strings": ["3d_cup_hot"] },
+                "minecraft:custom_name": { "bold": true, "color": "#834D2D", "italic": false, "text": "Coffe" },
+                "minecraft:potion_contents": {
+                  "custom_color": 8604973,
+                  "custom_effects": [
+                    { "amplifier": 2, "duration": 200, "id": "minecraft:regeneration", "show_icon": true, "show_particles": false },
+                    { "amplifier": 2, "duration": 100, "id": "minecraft:saturation", "show_icon": true, "show_particles": false }
+                  ]
+                },
+                "minecraft:use_remainder": {
+                  "id": "minecraft:glass_bottle",
+                  "count": 1,
+                  "components": {
+                    "minecraft:custom_model_data": { "strings": ["3d_cup_empty"] }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": { "redbyte": 3 },
+                "minecraft:custom_model_data": { "strings": ["redgiga"] },
+                "minecraft:custom_name": { "bold": true, "color": "dark_red", "italic": false, "text": "Redgiga" },
+                "minecraft:lore": [
+                  { "color": "dark_gray", "italic": false, "obfuscated": true, "text": "rt,ö4.t,m-" }
+                ],
+                "minecraft:tooltip_style": "minecraft:red"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": { "strings": ["information_book"] },
+                "minecraft:custom_name": { "bold": true, "color": "dark_red", "italic": false, "text": "Redstoen World Information" },
+                "minecraft:lore": [
+                  { "bold": false, "color": "#A30000", "italic": false, "text": "Hier steht alles was du wissen must" }
+                ],
+                "minecraft:tooltip_style": "minecraft:red",
+                "minecraft:written_book_content": {
+                  "author": "Redstone World",
+                  "generation": 1,
+                  "title": { "raw": "Redstone Wordl Information" },
+                  "pages": [
+                    { "raw": "{\"text\":\"\",\"extra\":[{\"text\":\"  Redstone World \",\"bold\":true,\"color\":\"dark_red\"},\"\\n\",{\"text\":\"          2.0\",\"bold\":true,\"color\":\"gold\"},\"\\n\",{\"text\":\"      by \",\"color\":\"black\"},{\"text\":\"Repuritus\",\"color\":\"dark_aqua\"},\"\\n\",\"\\n\",\"\\n\",\"\\n\",\"\\n\",\"\\n\",\"\\n\",{\"text\":\"Lies dieses Buch durch, um dich über die \",\"color\":\"black\"},{\"text\":\"Redstone World \",\"color\":\"dark_red\"},{\"text\":\"zu informieren.\",\"color\":\"black\"}]}" },
+                    { "raw": "{\"text\":\"\",\"extra\":[{\"text\":\"Inhaltsverzeichnis\",\"bold\":true,\"color\":\"black\",\"underlined\":true},\"\\n\",{\"text\":\"• Hub S.3\",\"color\":\"black\",\"clickEvent\":{\"action\":\"change_page\",\"page\":3},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"hub info\",\"color\":\"white\"}}},\"\\n\",{\"text\":\"• Advancements S.4\",\"color\":\"black\",\"clickEvent\":{\"action\":\"change_page\",\"page\":4},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"Advancement info\",\"color\":\"white\"}}},\"\\n\",{\"text\":\"• Redbytes S.5 - 8\",\"color\":\"black\",\"clickEvent\":{\"action\":\"change_page\",\"page\":5},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"Einzahlen & Auszahlen\",\"color\":\"white\"}}},\"\\n\",{\"text\":\"• Schnell Reisen S.9\",\"color\":\"black\",\"clickEvent\":{\"action\":\"change_page\",\"page\":9},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"wie Reise ich schnell?\",\"color\":\"white\"}}},\"\\n\",{\"text\":\"• Geheimgänge S.10\",\"color\":\"black\",\"clickEvent\":{\"action\":\"change_page\",\"page\":10},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"Geheimgänge finden\",\"color\":\"white\"}}},\"\\n\",{\"text\":\"• Game Mode S.11\",\"color\":\"black\",\"clickEvent\":{\"action\":\"change_page\",\"page\":11},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"Game Mode ändern\",\"color\":\"white\"}}},\"\\n\",{\"text\":\"• OP Rechte S.12\",\"color\":\"black\",\"clickEvent\":{\"action\":\"change_page\",\"page\":12},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"OP Rechte bekommen\",\"color\":\"white\"}}},\"\\n\",{\"text\":\"• Highlights S.13 - 15\",\"color\":\"black\",\"clickEvent\":{\"action\":\"change_page\",\"page\":13},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"spannende Orte\",\"color\":\"white\"}}},\"\\n\",\"\\n\",\"\\n\",{\"text\":\"!!! Klicke zum schnellen navigieren !!!\",\"color\":\"dark_red\"}]}" },
+                    { "raw": "{\"text\":\"\",\"extra\":[{\"text\":\"Hub\",\"bold\":true,\"color\":\"black\",\"underlined\":true},\"\\n\",{\"text\":\"Um wieder in den hub zu gelangen kann man die \",\"color\":\"black\"},{\"text\":\"Bahn\",\"underlined\":true,\"color\":\"black\"},{\"text\":\" nehmen \",\"color\":\"black\"},{\"text\":\"(mehr dazu unter Schnell Reisen auf Seite S.9).\",\"color\":\"black\",\"clickEvent\":{\"action\":\"change_page\",\"page\":9},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":\"Schnell Reisen S.9\"}},\"\\n\",{\"text\":\"Auserdem sind an manchen stellen Portale aufgestellt welche zurück in den Hub führen.\",\"color\":\"black\",\"insertion\":\"Auserdem sind an manchen stellen Portale aufgestellt welche zurück in den Hub führen.\"},\"\\n\",{\"text\":\"Auch mit \",\"color\":\"black\"},{\"text\":\"/trigger HUB\",\"italic\":true,\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"run_command\",\"command\":\"/trigger HUB\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"[Klick] to run Command\",\"color\":\"dark_red\"}}},{\"text\":\" kommt man ganz schnell in den Hub.\",\"color\":\"black\"}]}" },
+                    { "raw": "{\"text\":\"\",\"extra\":[{\"text\":\"Advancements\",\"bold\":true,\"color\":\"black\",\"underlined\":true},\"\\n\",{\"text\":\"mit der Taste \\\"\",\"color\":\"black\"},{\"keybind\":\"key.advancements\",\"bold\":true,\"color\":\"dark_red\"},{\"text\":\"\\\" kann man die Advancements öffnen und unter \",\"color\":\"black\"},{\"text\":\"Redstone World\",\"underlined\":true,\"color\":\"black\"},{\"text\":\" kannst du alle custom Advancements sehen welche man in der Redstone World erreichen kann\",\"color\":\"black\"}]}" },
+                    { "raw": "{\"text\":\"\",\"extra\":[{\"text\":\"Redbytes\",\"bold\":true,\"color\":\"black\",\"underlined\":true},\"\\n\",{\"text\":\"Mit \",\"color\":\"black\"},{\"text\":\"Redbits\",\"bold\":true,\"color\":\"dark_red\"},{\"text\":\" , \",\"color\":\"black\"},{\"text\":\"Redbytes\",\"bold\":true,\"color\":\"dark_red\"},{\"text\":\" , \",\"color\":\"black\"},{\"text\":\"Redgigas\",\"bold\":true,\"color\":\"dark_red\"},{\"text\":\" , \",\"color\":\"black\"},{\"text\":\"Redgiga Blöcke\",\"bold\":true,\"color\":\"dark_red\"},{\"text\":\" kann man an unterschiedlichen stellen, in der Redstone World bezahlen.\",\"color\":\"black\"},\"\\n\",\"\\n\",{\"text\":\"Einzahlen\",\"bold\":true,\"color\":\"black\",\"underlined\":true},\"\\n\",{\"text\":\"Um \",\"color\":\"black\"},{\"text\":\"Redbytes\",\"bold\":true,\"color\":\"dark_red\"},{\"text\":\" einzuzahlen gibt es im Hub und an anderen\",\"color\":\"black\"}]}" },
+                    { "raw": "{\"text\":\"\",\"extra\":[{\"text\":\"Orten, Automaten zum ein zahlen.\",\"color\":\"black\"},\"\\n\",{\"text\":\"Man nimmt einfach das Item in die Hand welches man einzahlen möchte und es wird automatisch auf dein Konto eingezahlt.\",\"color\":\"black\"},\"\\n\",\"\\n\",{\"text\":\"Auszahlen\",\"bold\":true,\"color\":\"black\",\"underlined\":true},\"\\n\",{\"text\":\"Um \",\"color\":\"black\"},{\"text\":\"Redbytes\",\"bold\":true,\"color\":\"dark_red\"},{\"text\":\" vom Konto auszuzahlen, sind im Hub sowie auch an anderen Orten\",\"color\":\"black\"}]}" },
+                    { "raw": "{\"text\":\"\",\"extra\":[{\"text\":\"Schilder welche man \\\"Rechtsklicken\\\" kann, angebracht. Wodurch man dann die jeweilige Einheit bekommt.\",\"bold\":true,\"color\":\"black\"},\"\\n\",\"\\n\",{\"text\":\"Tauschen\",\"bold\":true,\"color\":\"black\",\"underlined\":true},\"\\n\",{\"text\":\"In der Bank in der City, kann man \",\"color\":\"black\"},{\"text\":\"Emeralds\",\"bold\":true,\"color\":\"dark_green\"},{\"text\":\" in \",\"color\":\"black\"},{\"text\":\"Redbits\",\"bold\":true,\"color\":\"dark_red\"},{\"text\":\" umtauschen. Außerdem gibt es an einigen orten noch Villiger welche verschiedene\",\"color\":\"black\"}]}" },
+                    { "raw": "{\"text\":\"\",\"extra\":[{\"text\":\"Items für \",\"color\":\"black\"},{\"text\":\"Redbytes\",\"bold\":true,\"color\":\"dark_red\"},{\"text\":\" tauschen.\",\"color\":\"black\"},\"\\n\",{\"text\":\"An manchen stellen gibt es auch Villiger die z.B. \",\"color\":\"black\"},{\"text\":\"Redbytes\",\"bold\":true,\"color\":\"dark_red\"},{\"text\":\" in \",\"color\":\"black\"},{\"text\":\"Redbits\",\"bold\":true,\"color\":\"dark_red\"},{\"text\":\" umtauschen.\",\"color\":\"black\"}]}" },
+                    { "raw": "{\"text\":\"\",\"extra\":[{\"text\":\"Reisen\",\"bold\":true,\"color\":\"black\",\"underlined\":true},\"\\n\",{\"text\":\"Um schnell und einfach zu reisen, sind an allen Orten Bahnstationen, mit welchen man einfachreisen kann.\",\"color\":\"black\"},\"\\n\",{\"text\":\"In der Bahn kann man dann einfach auswählen wo hin man möchte.\",\"color\":\"black\"},\"\\n\",{\"text\":\"Allerdings kostet das Reisen mit der Bahn \",\"color\":\"black\"},\"\\n\",{\"text\":\"2x Redbytes\",\"bold\":true,\"color\":\"dark_red\"},{\"text\":\".\",\"color\":\"black\"}]}" },
+                    { "raw": "{\"text\":\"\",\"extra\":[{\"text\":\"Geheimgänge\",\"bold\":true,\"color\":\"black\",\"underlined\":true},{\"text\":\"Um leichter die Geheimgänge zu finden kann man \",\"color\":\"black\"},{\"text\":\"/trigger Geheimgang_on\",\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"run_command\",\"command\":\"/trigger Geheimgang_on\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"[Klick] to run Command\",\"color\":\"dark_red\"}}},{\"text\":\" Partikel vor dem Eingang des Geheimganges erscheinen lassen. Und mit \",\"color\":\"black\"},{\"text\":\"/trigger Geheimgang_off\",\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"run_command\",\"command\":\"/trigger Geheimgang_off\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"[Klick] to run Command\",\"color\":\"dark_red\"}}},{\"text\":\" kann man die Partikel wieder deaktivieren.\",\"color\":\"black\"}]}" },
+                    { "raw": "{\"text\":\"\",\"extra\":[{\"text\":\"Game Mode\",\"bold\":true,\"color\":\"black\",\"underlined\":true},\"\\n\",{\"text\":\"Die Game Mode Sparre kannst du ganz einfach für dich deaktivieren, indem du im hub, das Schild anklickst, auf dem \\\"Gamemode erlaubnis\\\" steht. \",\"color\":\"black\"},{\"text\":\"Du kannst aber auch dir selbst den Tag \\\"gamemode\\\" mit \",\"color\":\"black\"},{\"text\":\"/tag @s add gamemode\",\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"run_command\",\"command\":\"/tag @s add gamemode\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"text\":\"[Klick] to run Command\",\"color\":\"dark_red\"}}},{\"text\":\" geben.\",\"color\":\"black\"}]}" },
+                    { "raw": "{\"text\":\"\",\"extra\":[{\"text\":\"OP Rechte\",\"bold\":true,\"color\":\"black\",\"underlined\":true},\"\\n\",{\"text\":\"Um OP Rechte zu bekommen kannst du den Befehl: \",\"color\":\"black\"},{\"text\":\"/function give:rechte/op_rechte\",\"color\":\"dark_red\"},{\"text\":\" ausführen.\",\"color\":\"black\"},\"\\n\",{\"text\":\"Mit dem Tag \\\"no_join_tp\\\" wirst du nicht mehr in den hub Teleportiert wenn du die Weld betrittst.\",\"color\":\"black\"}]}" },
+                    { "raw": "{\"text\":\"\",\"extra\":[{\"text\":\"Highlights\",\"bold\":true,\"color\":\"black\",\"underlined\":true},\"\\n\",{\"text\":\"Hier findest du alle interessanten Orte aufgelistet welche du unbedingt mal besuchen solltest\",\"color\":\"black\"},\"\\n\",\"\\n\",\"\\n\",\"\\n\",\"\\n\",\"\\n\",\"\\n\",\"\\n\",{\"text\":\"                    -->\",\"color\":\"black\"}]}" },
+                    { "raw": "{\"text\":\"\",\"extra\":[{\"text\":\"Hub: \",\"bold\":true,\"color\":\"dark_purple\"},\"\\n\",{\"text\":\"[CommandBlocks]\",\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"command\":\"/execute in minecraft:overworld run teleport @s -8.9 77 10 0 0\"}},\"\\n\",\"\\n\",{\"text\":\"Redstone Hotel: \",\"bold\":true,\"color\":\"dark_red\"},\"\\n\",{\"text\":\"[Chill Ort]\",\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"run_command\",\"command\":\"/execute in minecraft:overworld run teleport @s 11996 85 1441 -90 0\"}},\"\\n\",{\"text\":\"[Arcade]\",\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"run_command\",\"command\":\"/execute in minecraft:overworld run teleport @s 12087.0 48 1532 0 11\"}},\"\\n\",{\"text\":\"[Ruine]\",\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"run_command\",\"command\":\"/execute in minecraft:overworld run teleport @s 12015 65 1509 37 0\"}},\"\\n\",\"\\n\",{\"text\":\"City:\",\"bold\":true,\"color\":\"dark_aqua\"},\"\\n\",{\"text\":\"[Schwimmbad]\",\"color\":\"dark_aqua\",\"clickEvent\":{\"action\":\"run_command\",\"command\":\"/execute in minecraft:overworld run teleport @s 12237 68 1255 -27 0\"}},\"\\n\",{\"text\":\"[Mansion]\",\"color\":\"dark_aqua\",\"clickEvent\":{\"action\":\"run_command\",\"command\":\"/execute in minecraft:overworld run teleport @s 12052 68 1106.0 96 0\"}},\"\\n\",{\"text\":\"[Scheune]\",\"color\":\"dark_aqua\",\"clickEvent\":{\"action\":\"run_command\",\"command\":\"/execute in minecraft:overworld run teleport @s 12036 67 1125 39 0\"}},\"\\n\",{\"text\":\"[Bank]\",\"color\":\"dark_aqua\",\"clickEvent\":{\"action\":\"run_command\",\"command\":\"/execute in minecraft:overworld run teleport @s 12202 64 1075 -115 -15\"}]}" },
+                    { "raw": "{\"text\":\"\",\"extra\":[{\"text\":\"Bunker:\",\"bold\":true,\"color\":\"gold\"},\"\\n\",{\"text\":\"[Großraum]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"command\":\"/execute in minecraft:overworld run teleport @s -1380 -17 1621 90 0\"}},\"\\n\",\"\\n\",{\"text\":\"Red-Station:\",\"bold\":true,\"color\":\"dark_purple\"},\"\\n\",{\"text\":\"[Eingang]\",\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"command\":\"/execute in minecraft:the_end run teleport @s 112 49 355 0 0\"}]}" }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": { "redbyte": 4 },
+                "minecraft:custom_model_data": { "strings": ["redgiga_block"] },
+                "minecraft:custom_name": { "bold": true, "color": "dark_red", "italic": false, "text": "Block of Redgiga" },
+                "minecraft:lore": [
+                  { "color": "dark_gray", "italic": false, "obfuscated": true, "text": "672,m5ku.o6m83-29n" }
+                ],
+                "minecraft:tooltip_style": "minecraft:red"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": { "mana_item": true, "mana_var": 3 },
+                "minecraft:custom_model_data": { "strings": ["3d_potion_drink"] },
+                "minecraft:custom_name": { "bold": true, "color": "dark_purple", "italic": false, "text": "Mana Potion III" },
+                "minecraft:lore": [
+                  { "bold": false, "color": "white", "italic": false, "text": "> gives your +1000 max Mana" }
+                ],
+                "minecraft:max_stack_size": 16,
+                "minecraft:potion_contents": {
+                  "custom_color": 11011491,
+                  "custom_effects": [
+                    { "amplifier": 1, "duration": 20, "id": "minecraft:regeneration", "show_icon": true, "show_particles": false }
+                  ]
+                },
+                "minecraft:tooltip_style": "minecraft:purple"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

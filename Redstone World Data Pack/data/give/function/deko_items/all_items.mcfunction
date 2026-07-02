@@ -29,3 +29,5 @@ give @s cobweb[custom_model_data={strings:["chiseled_bookshelf_cobweb_2"]}] 1
 #3d firework_rocket
 give @s firework_rocket[custom_model_data={strings:["3er_3d_rockets"]}] 1
 
+#Caffe
+give @p potion[potion_contents={custom_color:8604973},custom_model_data={strings:["3d_cup_hot"]}] 1

@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick[item_model="minecraft:yellow_bundle",!max_damage,max_stack_size=16,custom_data={ability:12},custom_name=[{"bold":true,"color":"dark_green","italic":false,"text":"Common: "},{"bold":false,"italic":false,"text":"Lootbag"}],lore=[{"color":"green","text":"> contains an random Item"}]] 1

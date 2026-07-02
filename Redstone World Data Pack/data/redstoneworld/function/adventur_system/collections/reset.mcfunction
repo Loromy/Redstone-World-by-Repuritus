@@ -1,19 +1,34 @@
-#Collections System - Reset/Uninstall
-scoreboard objectives remove collections_mining
-scoreboard objectives remove collections_wood
-scoreboard objectives remove collections_farming
-scoreboard objectives remove collections_archaeology
-scoreboard objectives remove stat_ore_iron
-scoreboard objectives remove stat_ore_coal
-scoreboard objectives remove stat_ore_diamond
-scoreboard objectives remove stat_ore_gold
-scoreboard objectives remove stat_ore_copper
-scoreboard objectives remove stat_ore_redstone
-scoreboard objectives remove stat_ore_lapis
-scoreboard objectives remove stat_ore_emerald
-scoreboard objectives remove stat_pale_oak_wood
-scoreboard objectives remove stat_wheat
-scoreboard objectives remove stat_resin_block
-scoreboard objectives remove stat_cactus
+# Wood Reset
+scoreboard players reset lvl_wood
+scoreboard players reset collections_wood
+scoreboard players reset lvl_next_wood
+scoreboard players reset stat_spruce_wood
 
-tellraw @a [{"text":"[Collections]","color":"gold"},{"text":" Collection System deaktiviert","color":"gray"}]
+# Farming Reset
+scoreboard players reset lvl_farming
+scoreboard players reset collections_farming
+scoreboard players reset lvl_next_farming
+scoreboard players reset stat_crop_wheat
+scoreboard players reset stat_crop_cane
+scoreboard players reset stat_cactus_farm
+
+# Combat Reset
+scoreboard players reset lvl_combat
+scoreboard players reset collections_combat
+scoreboard players reset lvl_next_combat
+scoreboard players reset stat_mob_kills
+
+# Mining Reset
+scoreboard players reset lvl_mining
+scoreboard players reset collections_mining
+scoreboard players reset lvl_next_mining
+scoreboard players reset stat_ore_coal
+scoreboard players reset stat_ore_iron
+scoreboard players reset stat_ore_gold
+scoreboard players reset stat_ore_lapis
+scoreboard players reset stat_ore_diamond
+
+
+
+
+tellraw @a [{"text":"[System] ","color":"red"},{"text":"Alle Collection-Fortschritte wurden erfolgreich zurückgesetzt!","color":"gray"}]
