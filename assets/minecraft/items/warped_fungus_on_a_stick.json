@@ -20,6 +20,13 @@
           "type": "model",
           "model": "item/custom_wapons/orbital_striker_button"
         }
+      },
+      {
+        "when": "kristall",
+        "model": {
+          "type": "model",
+          "model": "item/items/kristall"
+        }
       }
     ]
   }

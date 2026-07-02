@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/glass_bottle"
+    },
+    "cases": [
+      {
+        "when": "3d_cup_empty",
+        "model": {
+          "type": "model",
+          "model": "item/potion/3d_cup_empty"
+        }
+      }
+    ]
+  }
+}
